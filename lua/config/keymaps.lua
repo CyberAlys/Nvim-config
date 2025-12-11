@@ -18,7 +18,7 @@ wk.add({
 --Notifications 
 wk.add({
 	{"<leader>n",group = "Notifications"},
-	{"<leader>nh", "<cmd>Noicetelescope<cr>" ,desc = "Noice History", mode = 'n'},
+	{"<leader>nh", "<cmd>NoiceTelescope<cr>" ,desc = "Noice History", mode = 'n'},
 	{"<leader>nn", function()
         if Snacks.config.picker and Snacks.config.picker.enabled then
           Snacks.picker.notifications()

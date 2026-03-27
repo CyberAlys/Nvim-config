@@ -40,6 +40,8 @@ vim.keymap.set("n", "<C-o>", "<cmd>only<cr>")
 vim.keymap.set("n", "<C-n>", "<cmd>bnext<cr>")
 vim.keymap.set("n", "<C-p>", "<cmd>bprevious<cr>")
 vim.keymap.set("n", "<C-q>", "<cmd>b#<cr>")
+vim.keymap.set("n", "<C-ç>", "<cmd>vsplit<cr>")
+vim.keymap.set("n", "<C-Ç>", "<cmd>split<cr>")
 
 wk.add({
   { "<leader>b",  group = "Buffers" },

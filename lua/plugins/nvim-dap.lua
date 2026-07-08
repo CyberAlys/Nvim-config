@@ -1,6 +1,6 @@
 return {
   {
-    'mfussebegger/nvim-dap',
+    'mfussenegger/nvim-dap',
     config = function()
       local dap, dapui = require("dap"), require("dapui")
       dap.listeners.before.attach.dapui_config = function()
